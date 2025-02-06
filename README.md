@@ -1,10 +1,9 @@
-# Hello Member Web Development GDGOC Telkom University Bandung! 👋
+## Deskripsi
 
-sebelumnya kalian bisa `git clone https://github.com/mahesabagusr/intemediate-javascript.git` pada cmd kalian, agar kode ini dapat di jalankan di komputer/laptop kalian, jika mengalami kendala, kalian bisa menonton video tutorial berikut : [Tonton Disini](https://www.youtube.com/watch?v=EhxPBMQFCaI)
+Javascript Assignment for GDGOC Web Development.
+Tujuan utama adalah membuat sebuah CRUD sederhana untuk memanipulasi sebuah array of objects.
 
-agar kalian dapat menjalankan program diatas, kalian bisa download dan install *Node.js versi 22.13.1 (LTS)* terlebih dahulu melalui link berikut : [Download Disini](https://nodejs.org/en/download). Jika kalian mengalami kendala, bisa menonton video tutorial berikut : [Tonton Disini](https://www.youtube.com/watch?v=mzg1TNVUNtM)
-
-untuk mempermudah kalian dalam menjalankan code dari materi, saya sarankan untuk mencoba masing-masing implementasinya pada file *index.js* di luar dari folder Materi, kalian bisa menjalankan kode dengan `node index.js` pada CMD atau terminal vscode kalian
-
-jika ada yang mau ditanyakan, bisa bertanya melalui discord GDGOC member pada channel #web-chat
-
+Sebuah catatan kecil (yang ga kecil kecil amat) :
+- 'created_at' secara otomatis dibuat dengan 'Date.now()' di 'createNote' yang menyesuaikan waktu jam di perangkat.
+- 'newCreatedBy' dan 'newCreatedAt' ditambahkan di dalam bentuk comment agar bisa mengubah value dari 'created_by' ataupun 'created_at'
+- Untuk memanggil 'newCreatedBy' dan 'newCreatedAt', jangan lupa tambahkan parameter 'created_by' dan 'created_at' di dalam 'const updateNote()'
